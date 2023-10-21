@@ -1,0 +1,96 @@
+{
+  "version": "3.5.0",
+  "created": "2023-10-21T10:13:42Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "faqs\\index.html"
+    },
+    {
+      "path": "gettingstarted\\index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "resources\\css\\retype.css"
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\lunr.js"
+    },
+    {
+      "path": "resources\\js\\retype.js"
+    },
+    {
+      "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "static\\test1.png"
+    },
+    {
+      "path": "static\\test2.png"
+    },
+    {
+      "path": "static\\test3.png"
+    },
+    {
+      "path": "tools\\liquidationheatmaps\\explained\\index.html"
+    },
+    {
+      "path": "tools\\liquidationheatmaps\\support\\index.html"
+    },
+    {
+      "path": "tools\\liquidationheatmaps\\usage\\index.html"
+    },
+    {
+      "path": "tools\\liquidationheatmaps\\whatis\\index.html"
+    },
+    {
+      "path": "tools\\rsimacd\\index.html"
+    },
+    {
+      "path": "tools\\slippageindicator\\index.html"
+    },
+    {
+      "path": "tools\\slippageindicator\\usage\\index.html"
+    }
+  ]
+}

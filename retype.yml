@@ -1,0 +1,15 @@
+input: .
+output: .retype
+url: https://academy.liquidityhunts.com
+branding:
+  title: Liquidity Hunts
+  label: Academy
+links:
+  - text: Liquidity Hunts
+    link: https://liquidityhunts.com
+
+editor:
+  enabled: false
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
