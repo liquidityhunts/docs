@@ -6,59 +6,95 @@ In other words, a liquidation heatmap is a tool that helps traders identify wher
 
 Price is likely to move towards a brighter zone of liquidations. If the liquidation zone is above the price as in figure 1 (see below) traders can expect the price to go towards that zone and could look for a long and take profit at that zone. Shorters could look at the liquidation zone and choose to take a short. In figure 2 it is visible that price immediately reversed after the liquidity was taken at the bright yellow zone.
 
-![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.](/static/TIA1.png)
+<style>
+	.modal {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1050;
+		display: none;
+		overflow: hidden;
+		outline: 0;
+	}
+	.modal-dialog {
+		position: relative;
+		width: auto;
+		margin: 10px;
+		padding: 6% 10%;
+	}
+	.modal-content {
+		position: relative;
+		background-color: #fff;
+		border: 1px solid #999;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: 6px;
+		outline: 0;
+		box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	}
+	.modal-header {
+		padding: 15px;
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.modal-body {
+		position: relative;
+		padding: 15px;
+	}
+	.close {
+		float: right;
+		font-size: 1.5rem;
+		font-weight: 700;
+		line-height: 0;
+		color: #000;
+		text-shadow: 0 1px 0 #fff;
+		opacity: .5;
+	}
+	.close:hover, .close:focus {
+		color: #000;
+		text-decoration: none;
+		opacity: .75;
+	}
+</style>
 
-![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.](/static/TIA2.png)
+<figure class="content-center">
+	<img src="/static/TIA1.png" data-toggle="modal" data-target="#myModal1"/>
+</figure>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Popup Test</title>
-    <style>
-        #myModal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.9);
-        }
+<div class="modal" id="myModal1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<img src="/static/TIA1.png" style="width:100%"/>
+			</div>
+		</div>
+	</div>
+</div>
 
-        #myModal img {
-            margin: 20px;
-            width: 80%;
-            max-width: 800px;
-        }
-    </style>
-</head>
-<body>
+![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.]
 
-    <!-- Image Popup/Modal -->
-    <div id="myModal">
-        <img src="" alt="Enlarged Image" id="modalImage">
-    </div>
+<figure class="content-center">
+	<img src="/static/TIA2.png" data-toggle="modal" data-target="#myModal2"/>
+</figure>
 
-    <img src="../test/static/TIA1.png" alt="Figure 1" onclick="showModal(this.src)">
-    <img src="../test/static/TIA2.png" alt="Figure 2" onclick="showModal(this.src)">
+<div class="modal" id="myModal2">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<img src="/static/TIA2.png" style="width:100%"/>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <script>
-        function showModal(imagePath) {
-            var modal = document.getElementById('myModal');
-            var modalImage = document.getElementById('modalImage');
+![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.]
 
-            modalImage.src = imagePath;
-            modal.style.display = 'block';
 
-            modal.onclick = function () {
-                modal.style.display = 'none';
-            };
-        }
-    </script>
-
-</body>
-</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
