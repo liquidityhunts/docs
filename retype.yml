@@ -2,8 +2,10 @@ input: .
 output: .retype
 url: academy.liquidityhunts.com
 branding:
-  title: Liquidity Hunts Homepage
+  logo: /static/LiquidityHuntsMain_DARK.png
+  logoDark: /static/LiquidityHuntsMain_LIGHT.png
   label: Academy
+
 links:
   - text: Liquidity Hunts Homepage
     link: https://liquidityhunts.com
