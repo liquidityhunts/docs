@@ -74,7 +74,7 @@ Price is likely to move towards a brighter zone of liquidations. If the liquidat
 	</div>
 </div>
 
-![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.]
+Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.
 
 <figure class="content-center">
 	<img src="/static/TIA2.png" data-toggle="modal" data-target="#myModal2"/>
@@ -93,7 +93,11 @@ Price is likely to move towards a brighter zone of liquidations. If the liquidat
 	</div>
 </div>
 
-![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.]
+Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+We also have heatmaps for stocks like SP500, Google, Nvidia, Tesla and Amazon. In the video below you can find an example of the SP500 heatmaps at 3:33.
+
+[!embed](https://www.youtube.com/watch?v=ngcUcqg1P8A)
