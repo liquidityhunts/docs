@@ -11,8 +11,6 @@
   tab-size: 4;
 }
 
-/*  ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
-*/
 *,
 :after,
 :before {
@@ -4778,18 +4776,13 @@ pre[class*="language-"] .simplebar-scrollbar:before {
   background-color: rgb(53 53 53 / var(--tw-bg-opacity));
 }
 
-/* #docs-site-logo {
-  display: block;
-} */
 
-/* Add this CSS to your stylesheet */
 #docs-site-logo {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Optional: Center items horizontally */
+  align-items: center; 
 }
 
-/* Optional styling for the "Academy" text */
 #docs-site-logo .text-root-logo-label-text {
-  margin-top: 4px; /* Adjust the margin as needed */
+  margin-top: 4px; 
 }
