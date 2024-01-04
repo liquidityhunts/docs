@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.751996013508">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.757691039059">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -21,22 +21,22 @@
     <meta property="og:url" content="https://academy.liquidityhunts.com/tools/liquidationheatmaps/explained/">
     <meta property="og:title" content="Liquidation heatmaps explained">
     <meta property="og:description" content="A liquidation heatmap (figure 1) is a visual representation of the liquidation levels of traders in a market.">
-    <meta property="og:image" content="https://academy.liquidityhunts.com/static/test1.png">
+    <meta property="og:image" content="https://academy.liquidityhunts.com/static/tia1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://academy.liquidityhunts.com/tools/liquidationheatmaps/explained/">
     <meta property="twitter:title" content="Liquidation heatmaps explained">
     <meta property="twitter:description" content="A liquidation heatmap (figure 1) is a visual representation of the liquidation levels of traders in a market.">
-    <meta property="twitter:image" content="https://academy.liquidityhunts.com/static/test1.png">
+    <meta property="twitter:image" content="https://academy.liquidityhunts.com/static/tia1.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.751996013508" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.757691039059" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.751996013508" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.757691039059" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.751996013508" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.757691039059" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -51,8 +51,11 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-xl">
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Liquidity Hunts</span>
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/liquidityhuntsmain_dark.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/liquidityhuntsmain_light.png">
+                            </span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Academy</span>
                     </div>
         
@@ -64,7 +67,7 @@
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://liquidityhunts.com">Liquidity Hunts</a>
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://liquidityhunts.com">Liquidity Hunts Homepage</a>
                             </li>
         
                         </ul>
@@ -141,7 +144,7 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://liquidityhunts.com">Liquidity Hunts</a>
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://liquidityhunts.com">Liquidity Hunts Homepage</a>
                                     </li>
             
                                 </ul>
@@ -175,13 +178,25 @@
 <p>In other words, a liquidation heatmap is a tool that helps traders identify where other traders are most likely to be liquidated. This can be useful for both long and short traders, as it can help them to avoid being liquidated themselves and to identify potential trading opportunities.</p>
 <p>Price is likely to move towards a brighter zone of liquidations. If the liquidation zone is above the price as in figure 1 (see below) traders can expect the price to go towards that zone and could look for a long and take profit at that zone. Shorters could look at the liquidation zone and choose to take a short. In figure 2 it is visible that price immediately reversed after the liquidity was taken at the bright yellow zone.</p>
 <p><figure class="content-center">
-    <img src="../../../static/test1.png" alt="Figure 1: 7-Day heatmap of LOOMUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.">
-    <figcaption class="caption">Figure 1: 7-Day heatmap of LOOMUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.</figcaption>
+    <a href="../../../static/tia1.png" target="\_blank">
+        <img src="../../../static/tia1.png" alt="Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.">
+    </a>
+    <figcaption class="caption">Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.</figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../../static/test2.png" alt="Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.">
+    <a href="../../../static/tia2.png" target="\_blank">
+        <img src="../../../static/tia2.png" alt="Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.">
+    </a>
     <figcaption class="caption">Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.</figcaption>
+</figure>
+</p>
+<p>We also have heatmaps for stocks like SP500, Google, Nvidia, Tesla and Amazon. In the video below you can find an example of the SP500 heatmaps at 3:33.</p>
+<p>
+<figure>
+    <div class="relative w-full mb-6 overflow-hidden pt-9/16">
+        <iframe class="w-full h-full border-0 absolute inset-0" src="https://www.youtube.com/embed/ngcUcqg1P8A" allowfullscreen></iframe>
+    </div>
 </figure>
 </p>
 
@@ -221,7 +236,7 @@
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023. All rights reserved.</p></div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2024. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
