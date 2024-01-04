@@ -6,11 +6,9 @@ In other words, a liquidation heatmap is a tool that helps traders identify wher
 
 Price is likely to move towards a brighter zone of liquidations. If the liquidation zone is above the price as in figure 1 (see below) traders can expect the price to go towards that zone and could look for a long and take profit at that zone. Shorters could look at the liquidation zone and choose to take a short. In figure 2 it is visible that price immediately reversed after the liquidity was taken at the bright yellow zone.
 
+[![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.](/static/TIA1.png)](/static/TIA1.png){target="\_blank"}
 
-[![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.](/static/TIA1.png)](/static/TIA1.png){target="_blank"}
-
-
-[![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.](/static/TIA2.png)](/static/TIA2.png){target="_blank"}
+[![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.](/static/TIA2.png)](/static/TIA2.png){target="\_blank"}
 
 We also have heatmaps for stocks like SP500, Google, Nvidia, Tesla and Amazon. In the video below you can find an example of the SP500 heatmaps at 3:33.
 
