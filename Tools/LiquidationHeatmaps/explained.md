@@ -58,7 +58,7 @@ Price is likely to move towards a brighter zone of liquidations. If the liquidat
 </style>
 
 <figure class="content-center">
-	<img src="/static/TIA1.png" data-toggle="modal" data-target="#myModal1"/>
+	<img src="/static/test1.png" data-toggle="modal" data-target="#myModal1"/>
 </figure>
 
 <div class="modal" id="myModal1">
@@ -68,16 +68,16 @@ Price is likely to move towards a brighter zone of liquidations. If the liquidat
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
 			</div>
 			<div class="modal-body">
-				<img src="/static/TIA1.png" style="width:100%"/>
+				<img src="/static/test1.png" style="width:100%"/>
 			</div>
 		</div>
 	</div>
 </div>
 
-Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.
+![Figure 1: 7-Day heatmap of LOOMUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.]
 
 <figure class="content-center">
-	<img src="/static/TIA2.png" data-toggle="modal" data-target="#myModal2"/>
+	<img src="/static/test2.png" data-toggle="modal" data-target="#myModal2"/>
 </figure>
 
 <div class="modal" id="myModal2">
@@ -87,13 +87,24 @@ Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone abo
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
 			</div>
 			<div class="modal-body">
-				<img src="/static/TIA2.png" style="width:100%"/>
+				<img src="/static/test2.png" style="width:100%"/>
 			</div>
 		</div>
 	</div>
 </div>
 
-Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.
+![Figure 2: Price completely reversed after hitting the bright yellow liquidation zone thus presenting a perfect entry for a short trade or an exit for a previous long trade.]
+
+<!-- Image that pops up on the same page -->
+
+[![](/static/test2.png)](/static/test2.png)
+
+<!-- Opens image but syntax is not from retype typical html -->
+<figure class="content-center">
+	<a href="/static/test2.png" target="_blank">
+		<img src="../../../static/test2.png" alt="">
+	</a>
+</figure>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
