@@ -74,7 +74,7 @@ Price is likely to move towards a brighter zone of liquidations. If the liquidat
 	</div>
 </div>
 
-![Figure 1: 7-Day heatmap of LOOMUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.]
+![Figure 1: 7-Day heatmap of TIAUSD. There is a bright yellow liquidation zone above the latest spike. Price could move towards that price to liquidate shorters.]
 
 <figure class="content-center">
 	<img src="/static/test2.png" data-toggle="modal" data-target="#myModal2"/>
