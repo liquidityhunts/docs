@@ -1,4 +1,4 @@
-# Liquidation heatmaps explained
+# Liquidation heatmaps explaineddd
 
 A liquidation heatmap (figure 1) is a visual representation of the liquidation levels of traders in a market. It is calculated using market data and different leverage amounts. The liquidation levels are then added to price buckets on a chart. The more liquidation levels are added to a certain price, the brighter the color of the heatmap becomes, with bright yellow representing the highest amount of predicted liquidation levels. This allows traders to identify areas of high liquidity and potential price volatility.
 
